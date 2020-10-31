@@ -58,7 +58,7 @@ export default function App() {
             <Shop />
           </Route>
           <Route path="/shopenter">
-            <Shopenter />
+            <Shopenter recipes={recipes}/>
           </Route>
         </Switch>
         <div>

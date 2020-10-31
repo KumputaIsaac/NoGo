@@ -41,14 +41,14 @@ form i{
 }
 
 .forget input, .login input{
-  background-color: rgb(14, 14, 46);
+  background-color: rgb(7, 7, 73);
   color: white;
 }
 
 .signup{
   text-align: center;
   letter-spacing: 2px;
-  color: blue;
+  color:  rgb(7, 7, 73);
   /* font-size: 20px; */
   position: absolute;
   bottom: 0;
@@ -60,7 +60,7 @@ form i{
 /* homepage */
 .header{
   padding: 5px;
-  background-color: blue;
+  background-color:  rgb(7, 7, 73);
   height: 130px;
 }
 .icon{
@@ -183,4 +183,74 @@ form i{
 }
 .closed{
   color: red;
+}
+
+/* details */
+.details h2{
+  padding-bottom: 10px;
+}
+.details p{
+  line-height: 25px;
+  font-weight: 400;
+}
+.details{
+  color: rgb(7, 7, 73);
+}
+p.green{
+  color: green;
+}
+
+.inline,.recipe{
+  display: flex;
+}
+.address{
+  padding-right: 10px;
+  width: 7rem;
+}
+.phone{
+  justify-content: space-between;
+}
+
+.bet{
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.number{
+  width: 50px;
+  text-align: center;
+}
+
+.image{
+  width: 100px;
+  height: 100px;
+}
+.det{
+  width: 70%;
+  margin-left: auto;
+  padding-left: 10px;
+}
+.image img{
+  width: 100%;
+  height: 100%;
+}
+.recipe{
+  margin-top: 10px;
+  box-shadow: 2px 2px 2px 2px #888888;
+}
+
+.check input{
+  height: 30px;
+  color: white;
+  background-color:  rgb(7, 7, 73)
+}
+.fixed button{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  outline: none;
+  border: none;
+  height: 40px;
+  color: white;
+  background-color:  rgb(7, 7, 73)
 }
