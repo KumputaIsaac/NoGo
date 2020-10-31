@@ -25,7 +25,7 @@ export default function Homepage({getChange,passSearch,recipes}) {
                 <form onSubmit={passSearch}>
                     <div class="input search">
                         <i class="fas fa-search"></i>
-                        <input type="text" placeholder="search items" onChange={getChange} />
+                        <input type="text" placeholder="search food" onChange={getChange} />
                     </div>
                 </form>
                 

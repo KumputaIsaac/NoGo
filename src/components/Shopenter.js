@@ -55,7 +55,7 @@ export default function Shopenter({recipes}) {
                                     <p>1 <br/> ${recipes[i].recipe.ingredients.length}</p>
                                 </div>
                                 <div>
-                                    <input class='number' type="number" name="" value="0"/>
+                                    <input  class='number' type="number" />
                                 </div>
                             </div>
                         </div>

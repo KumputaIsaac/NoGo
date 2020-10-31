@@ -9,6 +9,7 @@ import {BrowserRouter as Router,Switch, Route} from "react-router-dom";
 
 
 
+
 export default function App() {
 
   const APP_ID = '0d8202da'
@@ -43,7 +44,7 @@ export default function App() {
 
   return (
     <div>
-      <Router>{console.log(recipes)}
+      <Router>
         <Switch>
           <Route exact path="/">
             <Login />
