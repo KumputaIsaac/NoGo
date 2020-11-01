@@ -14,32 +14,23 @@ export default function Login() {
                     <form action="">
                         <div class="input">
                             <i class="fas fa-hospital-user"></i>
-                            <input type="email" placeholder="Email-ID"/>
+                            <input type="text" placeholder="Phone Number"/>
                         </div>
-                        <div class="password">
-                            <i class="fas fa-lock"></i>
-                            <input type="password" placeholder="Password"/>
-                        </div>
+                        
                         <Link to="/homepage">
                             <div class="login">
-                                <input type="button" value="Login"/>
-                            </div>
-                        </Link>
-                        
-                        <Link to='/forget'>
-                            <div class="forget">
-                                <input type="button" value="Forgot Password"/>
+                                <input type="button" value="Verify OTP"/>
                             </div>
                         </Link>
 
-                        <Link to='/register'>
+                        <Link to='/'>
                             <div class="signup">
                                 <div>
-                                    Dont Have an account? sign up
+                                    Already Have an account? Login
                                 </div>
                             </div>
                         </Link>
-                        
+
                         
 
                     </form>

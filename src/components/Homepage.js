@@ -6,7 +6,6 @@ import Card from './Card'
 export default function Homepage({getChange,passSearch,recipes}) {
     
     return (
-       
         <div>
             <div class="header">
                 <div class="flex">

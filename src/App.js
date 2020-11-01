@@ -3,6 +3,8 @@ import Login from './components/Login'
 import Homepage from './components/Homepage'
 import Profile from './components/Profile'
 import Shop from './components/Shop'
+import Forget from './components/Forget'
+import Register from './components/Register'
 import Shopenter from './components/Shopenter'
 import './App.css'
 import {BrowserRouter as Router,Switch, Route} from "react-router-dom";
@@ -60,6 +62,12 @@ export default function App() {
           </Route>
           <Route path="/shopenter">
             <Shopenter recipes={recipes}/>
+          </Route>
+          <Route path="/forget">
+            <Forget />
+          </Route>
+          <Route path="/register">
+            <Register />
           </Route>
         </Switch>
         <div>

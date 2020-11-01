@@ -3,67 +3,70 @@ import {Link} from "react-router-dom";
 
 
 export default function Shopenter({recipes}) {
+    
     return (
         <div>
-            <div class="header">
-                <div class="flex">
+            <div className="header">
+                <div className="flex">
                     <Link to="/homepage">
-                        <div class="logo2">
+                        <div className="logo2">
                             Logo
                         </div>
                     </Link>
                     
                     <Link to="/profile">
-                        <div class="icon">
-                            <i class="fas fa-user"></i>
+                        <div className="icon">
+                            <i className="fas fa-user"></i>
                         </div>
                     </Link>
                 </div>
                 
-                    <div class="input search">
-                        <i class="fas fa-search"></i>
+                    <div className="input search">
+                        <i className="fas fa-search"></i>
                         <input type="text" placeholder="Search Item in this Shop" />
                     </div>
             </div>
-            <div class="details first">
+            <div className="details first">
                 <h2>Brijwasi Sweet House</h2>
-                <div class="inline">
-                    <p class='address'>Address :</p>
+                <div className="inline">
+                    <p className='address'>Address :</p>
                     <p>100.ft road near cake house<br/> Dayalbagh - 282005</p> 
                 </div>
-                <div class="inline phone">
+                <div className="inline phone">
                     <p >Phone :</p>
                     <p>9837471222</p> 
-                    <p class='green'>Delivering</p> 
+                    <p className='green'>Delivering</p> 
                 </div>
                 <p>Free delivery on this order!</p>{console.log(recipes)}
             </div>
-            <div class='check'>
+            <div className='check'>
                 <input type="button" name="" value="Check Location"/>
             </div>
+            <div className='last'>
             {recipes.map((user,i)=>{
                 return(
-                    <div class='recipe first last'>
-                        <div class='image'>
+                    <div className='recipe first '>
+                        <div className='image'>
                             <img src={recipes[i].recipe.image} key={i} alt=""/>
                         </div>
-                        <div class='det'>
+                        <div className='det'>
                             <p>{recipes[i].recipe.label}</p>
                         
-                            <div class='inline bet'> 
+                            <div className='inline bet'> 
                                 <div>
                                     <p>1 <br/> ${recipes[i].recipe.ingredients.length}</p>
                                 </div>
                                 <div>
-                                    <input  class='number' type="number" />
+                                    <input className='number' type="number" />
                                 </div>
                             </div>
                         </div>
                     </div>
                 )
             })}
+            </div>
 
-            <div class='fixed'>
+            <div className='fixed'>
                 <button type="text"> Total price $ 260 <br/> GOTO CART</button>
             </div>
             
