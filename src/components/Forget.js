@@ -18,7 +18,7 @@ export default function Login() {
                         </div>
                         
                         <Link to="/homepage">
-                            <div class="login">
+                            <div class="login now">
                                 <input type="button" value="Reset Password"/>
                             </div>
                         </Link>

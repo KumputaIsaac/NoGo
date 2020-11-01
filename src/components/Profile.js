@@ -40,7 +40,7 @@ export default function Profile() {
             <div>  
             
                 <Link to="/homepage">
-                    <div className="login save">
+                    <div className="login save now">
                         <input type="button" value="Save Changes"/>
                     </div>
                 </Link>

@@ -21,13 +21,13 @@ export default function Login() {
                             <input type="password" placeholder="Password"/>
                         </div>
                         <Link to="/homepage">
-                            <div class="login">
+                            <div class="login now">
                                 <input type="button" value="Login"/>
                             </div>
                         </Link>
                         
                         <Link to='/forget'>
-                            <div class="forget">
+                            <div class="forget now">
                                 <input type="button" value="Forgot Password"/>
                             </div>
                         </Link>

@@ -11,7 +11,7 @@
   border:2px solid black
 } */
 .first{
-  padding: 5px;
+  padding: 15px;
 }
 
 .logo{
@@ -39,6 +39,9 @@ input{
 }
 input::placeholder,input{
   padding-left: 10px;
+}
+.now{
+  border: none !important;
 }
 form i{
   padding: 8px;
@@ -78,7 +81,7 @@ form i{
   height: 60px;
 }
 .search i{
-  padding: 7px;
+  padding: 10px;
 }
 .search{
   background-color: white;
