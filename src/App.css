@@ -37,6 +37,9 @@ input{
   border: none;
   border-radius: 3px;
 }
+.please{
+  border-radius: 0 !important;
+}
 input::placeholder,input{
   padding-left: 10px;
 }
@@ -150,7 +153,7 @@ form i{
  }
  h3{
    text-align: center;
-   overflow: hidden;
+   word-break: break-word;
  }
  .shadow{
   box-shadow: 0px 0px 4px 2px rgba( 0, 0, 0, 0.2 );
