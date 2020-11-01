@@ -43,7 +43,7 @@ export default function App() {
   }
 
   return (
-    <div>
+    <div className='pc'>
       <Router>
         <Switch>
           <Route exact path="/">

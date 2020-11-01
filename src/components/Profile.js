@@ -33,15 +33,17 @@ export default function Profile() {
                             <i class="fas fa-map-marker-alt"></i>
                             <input type="text" placeholder="Address"/>
                         </div>
-                        <Link to="/homepage">
-                            <div class="login save">
-                                <input type="button" value="Save Changes"/>
-                            </div>
-                        </Link>
-
                         
                     </form>
                 </div>
+            </div>
+            <div>  
+            
+                <Link to="/homepage">
+                    <div class="login save">
+                        <input type="button" value="Save Changes"/>
+                    </div>
+                </Link>
             </div>
         </div>
     )

@@ -9,7 +9,7 @@ export default function Shopenter({recipes}) {
                 <div class="flex">
                     <Link to="/homepage">
                         <div class="logo2">
-                            LOGO
+                            Logo
                         </div>
                     </Link>
                     
@@ -43,7 +43,7 @@ export default function Shopenter({recipes}) {
             </div>
             {recipes.map((user,i)=>{
                 return(
-                    <div class='recipe first'>
+                    <div class='recipe first last'>
                         <div class='image'>
                             <img src={recipes[i].recipe.image} key={i} alt=""/>
                         </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link} from "react-router-dom";
+import Logo from './Logo'
 
 
 export default function Login() {
@@ -7,7 +8,7 @@ export default function Login() {
         <div>
             <div class="first">
                 <div class="logo">
-                    NOGO
+                    <Logo/>
                 </div>
                 <div class="form">
                     <form action="">

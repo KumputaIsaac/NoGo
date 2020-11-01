@@ -12,7 +12,7 @@ export default function Homepage({getChange,passSearch,recipes}) {
                 <div class="flex">
                 <Link to="/homepage">
                     <div class="logo2">
-                        LOGO
+                        Logo
                     </div>
                 </Link>
                     
