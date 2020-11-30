@@ -127,10 +127,10 @@ form i{
 }
 
 /* card */
-.card{
-
+.card {
   width: 150px;
-  height: 150px;
+  overflow: hidden;
+  height: 155px;
   margin-top: 20px;
 }
 .all{
